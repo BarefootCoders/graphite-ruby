@@ -20,6 +20,3 @@ Session.vim
 .yardoc
 _yardoc
 doc/
-
-# Custom
-spec/support/log
