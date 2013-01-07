@@ -1,4 +1,4 @@
-graphite-ruby
+graphite-ruby [![Build Status](https://travis-ci.org/jeyb/graphite-ruby.png)](https://travis-ci.org/jeyb/graphite-ruby)
 =============
 Sends measurements to [Hosted Graphite](http://hostedgraphite.com/) via UDP.
 
