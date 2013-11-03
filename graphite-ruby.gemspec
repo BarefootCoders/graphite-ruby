@@ -18,7 +18,7 @@ Gem::Specification.new do |gem|
 
   gem.required_ruby_version = ">= 1.9.2"
 
-  gem.add_development_dependency "debugger", "~> 1.2.2"
+  gem.add_development_dependency "debugger"
   gem.add_development_dependency "rake"
   gem.add_development_dependency "rspec", "~> 2.12.0"
 end
