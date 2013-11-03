@@ -24,6 +24,10 @@ class Graphite
   end
 
   def socket
-    @socket ||= UDPSocket.new
+    @socket ||= build_socket
+  end
+
+  def build_socket
+    TCPSocket.new(@host, @port)
   end
 end
